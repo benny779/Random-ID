@@ -1,0 +1,21 @@
+{
+  "name": "Random ID",
+  "description": "Get a random Israeli ID number",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/Emblem_of_Israel16.png",
+      "32": "/images/Emblem_of_Israel32.png",
+      "48": "/images/Emblem_of_Israel48.png",
+      "128": "/images/Emblem_of_Israel128.png"
+    },
+    "icons": {
+      "16": "/images/Emblem_of_Israel16.png",
+      "32": "/images/Emblem_of_Israel32.png",
+      "48": "/images/Emblem_of_Israel48.png",
+      "128": "/images/Emblem_of_Israel128.png"
+    }
+  }
+}
