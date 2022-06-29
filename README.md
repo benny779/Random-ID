@@ -9,3 +9,5 @@ The plugin produces random Israeli ID numbers.
 The function for generating a random number was based on a code I had previously written to verify the validity of an ID number.
 
 On occasion I might add a function to save the number history in [Storage](https://developer.chrome.com/docs/extensions/reference/storage/).
+
+![screenshot](https://github.com/benny779/Random-ID/blob/main/Screenshot.png)
