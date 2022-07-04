@@ -1,7 +1,6 @@
-body {
-  background-color: rgb(241, 255, 255);
-  /* background-color: rgb(236, 253, 253); */
-}
+/* body {
+  background-color: rgb(236, 253, 253);
+} */
 * {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,20 +24,25 @@ h1 {
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center !important;
-  border: 1px solid transparent;
+  border: 1px solid #e4dfe9;
   border-radius: 5px; /*3*/
-  box-shadow: 0 0 8px #b3b3b3;
+  /* box-shadow: 0 0 8px #b3b3b3; */
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 12px;
   padding: 3px 20px 5px;
   margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform .2s;
 }
 #myID:hover,
 #reloadBtn:hover {
   cursor: pointer;
-  transition-duration: 0.3s;
-  background-color: rgb(223, 223, 223);
+  /* background-color: rgb(223, 223, 223); */
+  /* border-color: #d0ccd4; */
+  border-color: #d9d5dd;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
 }
 #myID:active,
 #reloadBtn:active {
