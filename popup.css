@@ -19,30 +19,25 @@ h1 {
 }
 #myID,
 #reloadBtn {
-  background-color: white;
+  background-color: #f7f9f9;
   width: 100px;
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center !important;
   border: 1px solid #e4dfe9;
-  border-radius: 5px; /*3*/
-  /* box-shadow: 0 0 8px #b3b3b3; */
-  box-shadow: rgb(0 0 0 / 10%) 0px 0px 12px;
+  border-radius: 5px;
   padding: 3px 20px 5px;
   margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform .2s;
+  transition: all 0.3s;
 }
 #myID:hover,
 #reloadBtn:hover {
   cursor: pointer;
-  /* background-color: rgb(223, 223, 223); */
-  /* border-color: #d0ccd4; */
   border-color: #d9d5dd;
-  transition-duration: 0.5s;
-  transform: scale(1.1);
+  box-shadow: 4px 8px 10px rgb(0 0 0 /30%);
 }
 #myID:active,
 #reloadBtn:active {
@@ -54,7 +49,7 @@ h1 {
   height: 25px;
   width: 25px;
   padding: 5px;
-  background: url(images/reload.png), white;
+  background: url(images/reload.png), #f7f9f9;
   background-repeat: no-repeat;
   background-size: 75%;
   background-position: center;
