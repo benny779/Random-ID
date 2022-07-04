@@ -3,6 +3,7 @@
   "description": "Get a random Israeli ID number",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": ["clipboardWrite", "activeTab", "storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
