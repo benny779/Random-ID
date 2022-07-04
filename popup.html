@@ -2,7 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="popup.css" />
-    <link rel="manifest" href="/manifest.json">
+    <!-- <link rel="manifest" href="/manifest.json" /> -->
+    <script src="sorttable.js"></script>
   </head>
   <body>
     <h1 class="unselectable">Your random ID number</h1>
@@ -15,9 +16,41 @@
         <!-- <img src="images/reload.png" alt="reload" width="27px" height="27px" /> -->
       </div>
     </div>
+    <!-- <p id="curr-website" class="p">www.google.com</p> -->
     <div id="status" class="success">Status</div>
+
+    <!-- <table id="history" class="sortable" style="width: 100%">
+      <thead class="unselectable">
+        <tr>
+          <th>Website</th>
+          <th>ID</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Example.com</td>
+          <td>987654321</td>
+          <td>04/07/2022 11:49</td>
+        </tr>
+        <tr>
+          <td>Google.com</td>
+          <td>123456789</td>
+          <td>04/07/2022 11:49</td>
+        </tr>
+        <tr>
+          <td>Google.com</td>
+          <td>999999999</td>
+          <td>04/07/2022 11:49</td>
+        </tr>
+        <tr>
+          <td>shtemer.co.il</td>
+          <td>123456789</td>
+          <td>04/07/2022 11:49</td>
+        </tr>
+      </tbody>
+    </table> -->
     <script src="popup.js"></script>
     <script src="history.js"></script>
-
   </body>
 </html>

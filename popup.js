@@ -112,3 +112,61 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+/* table design */
+// window.addEventListener('resize', () => {
+let theadCells = document
+  .getElementById('history')
+  .getElementsByTagName('thead')[0]
+  .getElementsByTagName('tr')[0]
+  .getElementsByTagName('th');
+
+const tbodyCells = document
+  .getElementById('history')
+  .getElementsByTagName('tbody')[0]
+  .getElementsByTagName('tr')[0]
+  .getElementsByTagName('td');
+
+console.log('=========');
+for (let i = 0; i < theadCells.length; i++) {
+  console.log(tbodyCells[i].clientWidth + 'px b');
+  console.log(theadCells[i].clientWidth + 'px h');
+
+  let w = tbodyCells[i].clientWidth - 16 + 'px';
+  console.log(w);
+  theadCells[i].style.minWidth = w;
+  theadCells[i].style.maxWidth = w;
+  console.log('------');
+
+  console.log(tbodyCells[i].clientWidth + 'px b');
+  console.log(theadCells[i].clientWidth + 'px h');
+  console.log('********');
+}
+// console.log(111);
+// });
+
+// .map((v, i) => {
+//   console.log(v);
+// });
+
+// var $table = $('#history');
+// var $bodyCells = $table.find('tbody>tr:first').children();
+// var colWidth;
+
+// $(window)
+//   .resize(() => {
+//     colWidth = $bodyCells
+//       .map(() => {
+//         $(this).width();
+//       })
+//       .get();
+
+//     $table
+//       .find('thead tr')
+//       .children()
+//       .each((i, v) => {
+//         console.log(yy);
+//         $(v).width(colWidth[i]);
+//       });
+//   })
+//   .resize();
